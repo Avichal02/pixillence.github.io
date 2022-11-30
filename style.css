@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +11,8 @@ body{
     background-color: #fcf5eb;
 }
 .whole{
-    margin-top: 7vh;
-    margin-left: 6vw;
+    margin-top: 8vh;
+    margin-left: 7vw;
     box-shadow: 6px 6px 5px rgb(212, 193, 177);
 }
 .left{
@@ -20,7 +21,7 @@ body{
     background-color: #2e4d7b;
 }
 .header{
-    padding-top: 3vh;
+    padding-top: 6vh;
     display: flex;
     padding-left: 2.5vw;
     
@@ -70,15 +71,17 @@ hr{
 }
 .name{
     color: white;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Michroma', sans-serif;
     margin-left: 4vw;
-    font-size: 45px;
-    margin-top: -3vh;
+    font-size: 30px;
+    margin-top: -1vh;
 }
-
+.normal{
+    font-weight: lighter;
+}
 .sub{
-    font-size: 15px;
-    font-family: 'PT Sans', sans-serif;
+    font-size: 11px;
+    font-family: 'Michroma', sans-serif;
     color: white;
     margin-left: 4vw;
 
@@ -110,8 +113,17 @@ hr{
 }
     
 .price{
-    margin-left: 2.5vw;
+    margin-left: 3.5vw;
     margin-top: 1vh;
+}
+.crownn{
+    display: flex;
+}
+.online{
+    margin-top: 6.5vh;
+    margin-left: 4vw;
+    display: flex;
+    color: white;
 }
 
 .underline{
@@ -150,7 +162,11 @@ text-decoration: underline;
     font-family: 'Open Sans', sans-serif;
     margin-left: 0.5vw;
 }
+.michroma{
+    font-family: 'Michroma', sans-serif;
+}
 .register{
+    font-family: 'Michroma', sans-serif;
     display: flex;
     margin-left: 4vw;
     margin-top: 2vh;
@@ -162,11 +178,14 @@ button{
     padding-left: 1vw;
     padding-right: 1vw;
     border: 1px solid #2e4d7b;
+    letter-spacing: 1.5px;
     color: #2e4d7b;
 }
 
 .text{
-    margin-left: 0.5vw;
+    margin-left: 0.8vw;
+    font-size: 10px;
+    letter-spacing: 2.5px;
     color: white;
 }
 
@@ -182,10 +201,18 @@ button{
 
 .lowertt{
     color: white;
+    font-size: 10px;
     width: 20vw;
     margin-left: -25vw;
+    letter-spacing: 2px;
 }
-
+.shift{
+    margin-top: 0.4vh;
+}
+.small{
+    font-size: 9px;
+    font-family: 'Open Sans', sans-serif;
+}
 .time{
     display: flex;
     margin-left: -25vw;
@@ -198,11 +225,11 @@ button{
     height: 70px;
     width: 70px;
     margin-right: 1vw;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
     text-align: center;
     padding-top: 0.2vh;
-    padding-bottom: 0.5vh;
+    padding-bottom: 0.2vh;
     font-family: 'DM Serif Display', serif;
 }
 
@@ -211,34 +238,43 @@ button{
     height: 70px;
     width: 70px;
     margin-right: 1vw;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
     text-align: center;
-    padding-bottom: 0.5vh;
+    padding-bottom: 0.2vh;
     font-family: 'DM Serif Display', serif;
 }
 .day{
+    font-family: 'Michroma', sans-serif;
     color: #fcf5eb;
-    margin-top: 1vh;
-    margin-left: 0.75vw;
+    margin-top: 0.5vh;
+    font-size: 8px;
+    margin-left: 0.95vw;
 }
 
 
 .hour{
+    font-family: 'Michroma', sans-serif;
     color: #fcf5eb;
-    margin-top: 1vh;
-    margin-left: 0.5vw;
+    margin-top: 0.5vh;
+    font-size: 8px;
+    margin-left: 0.8vw;
 }
 
 .minute{
+    font-family: 'Michroma', sans-serif;
     color: #fcf5eb;
-    margin-top: 1vh;
-    margin-left: 1.2vw;
+    margin-top: 0.5vh;
+    font-size: 8px;
+    margin-left: 1.5vw;
 }
 
 .second{
+    font-family: 'Michroma', sans-serif;
     color: #fcf5eb;
-    margin-top: 1vh;
+    margin-top: 0.5vh;
+    font-size: 8px;
+    margin-left: 0.3vw;
 }
 .nrityakala{
     display: flex;
@@ -251,10 +287,15 @@ button{
 }
 
 .right img{
-    margin-left: 0.5vw;
+    margin-left: 3.5vw;
     margin-top: 3vh;
 }
-
+.italic{
+    font-style: italic;
+}
+.low{
+    margin-top: 0.3vh;
+}
 .logo{
     background-color: #2e4d7b;
     width: 75%;
@@ -262,14 +303,16 @@ button{
     margin-top: -.5vh;
 }
 .ttright{
+    font-family: 'Michroma', sans-serif;
     margin-top: 3vh;
-    margin-left: 16.3vw;
+    margin-left: 13.1vw;
     font-size: 30px;
     color: #2e4d7b;
 }
 
 .tttright{
-    margin-left: 20vw;
+    font-family: 'Michroma', sans-serif;
+    margin-left: 17.8vw;
     font-size: 15px;
     color: #2e4d7b;
 }
@@ -325,12 +368,13 @@ button{
 
 .footer{
     background-color: #fcf5eb;
-    height: 2.5vh;
+    height: 2vh;
     font-size: 11px;
     color: #2e4d7b;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 5px;
     text-align: center;
+    padding-top: -5vh;
     
 }
 
